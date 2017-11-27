@@ -1,5 +1,5 @@
 .container {
-	font-family: Ubuntu;
+	font-family: Ubuntu, Arial, Helvetica, serif;
 	width: 900px;
 	margin: 0 auto;
 }
@@ -14,12 +14,12 @@
 	padding-top: 30px;
 }
 
-.text_name {
+.text__name {
 	font-weight: normal;
 	margin-top: 0;
 }
 
-.img_logotype {
+.img__logotype {
 	border-radius: 30px;
 }
 .navigation {
@@ -54,7 +54,7 @@
 	background-color: #CD5555;
 }
 
-.picture_foto {
+.picture__foto {
 	width: 900px;
 }
 
@@ -63,7 +63,7 @@
 	margin-top: 40px;
 }
 
-.picture_text {
+.picture__text {
 	position: absolute;
 	right: 100px;
 	top: 200px;
@@ -76,30 +76,34 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	/*justify-content: space-around;*/
 }
 
-.bloc {
+.block {
 	margin-top: 40px;
 	position: relative;
 }
 
-.bloc_foto {
+.block__foto {
 	width: 400px;
+	margin-right: 10px;
+	margin-left: 30px;
 }
 
-.bloc_text {
-	position: absolute;
-	font-weight: normal;
+.block__text {
 	background-color: white;
-	margin-bottom: 0;
-	padding: 10px;
-	left: 0;
+	position: absolute;
+	text-align: center;
 	bottom: 0;
-	width: 200px;
+	left: 0;
+	width: 220px;
 }
 
-.bottom_text {
+.block__text_1 {
+	font-weight: normal;
+}
+
+.bottom__text {
 	margin-top: 30px;
 	padding-top: 40px;
 	padding-right: 60px;
@@ -112,8 +116,6 @@
 .bottom {
 	position: relative;
 	margin: 50px 100px;
-	/*margin-left: 100px;*/
-	/*margin-right: 100px;*/
 	border: 1px solid black;
 }
 
@@ -124,11 +126,9 @@
 	right: 0;
 	margin: 0 auto;
 	top: -32px;
-	/*margin-left: 390px;*/
-	/*margin-top: 0;*/
 }
 
-.map_foto {
+.map__foto {
 	width: 900px;
 	margin-top: 30px;
 }
