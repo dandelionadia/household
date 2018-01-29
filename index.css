@@ -1,0 +1,133 @@
+.container {
+	font-family: Ubuntu, Arial, Helvetica, serif;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.head {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	padding-top: 30px;
+}
+
+.text__name {
+	font-weight: normal;
+	margin-top: 0;
+}
+
+.img__logotype {
+	border-radius: 30px;
+}
+.navigation {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 10px;
+}
+
+
+.navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+}
+
+.navigation li {
+	display: inline;
+	margin-left: 25px;
+}
+
+.navigation a:link, .navigation a:visited {
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: pink;
+	background-color: #CD5555;
+}
+
+.picture__foto {
+	width: 900px;
+}
+
+.picture {
+	position: relative;
+	margin-top: 40px;
+}
+
+.picture__text {
+	position: absolute;
+	right: 100px;
+	top: 200px;
+	width: 250px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.information {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.block {
+	margin-top: 40px;
+	position: relative;
+}
+
+.block__foto {
+	width: 400px;
+	margin-right: 10px;
+	margin-left: 30px;
+}
+
+.block__text {
+	background-color: white;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	width: 220px;
+}
+
+.block__text_1 {
+	font-weight: normal;
+}
+
+.bottom__text {
+	margin-top: 30px;
+	padding-top: 40px;
+	padding-right: 60px;
+	padding-bottom: 40px;
+	padding-left: 60px;
+	font-style: italic;
+	text-align: center;
+}
+
+.bottom {
+	position: relative;
+	margin: 50px 100px;
+	border: 1px solid black;
+}
+
+.bottom_img {
+	position: absolute;
+	width: 100px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: -32px;
+}
+
+.map__foto {
+	width: 900px;
+	margin-top: 30px;
+}
